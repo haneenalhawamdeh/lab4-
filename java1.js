@@ -19,12 +19,12 @@ var h = prompt("Please enter number less than 10");
 
 while(h < 10){
     
-    if(m < 5){
+    if(h < 5){
         alert("your number less than 5");
-    }else if(m>5 && m<10){
+    }else if(h>5 && h<10){
         alert("your number less than 10 more than 5");
     }
-    m=80;
+    h=80;
 }
 
 var n = prompt("Please enter number 10");
